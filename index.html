@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" >
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+
+    <link rel="stylesheet" href="./style.css" >
+    <link rel="icon" href="./assets/favicon.ico" >
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" >
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin >
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    >
+
+    <title>cv</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <nav class="nav">
+          <ul class="nav-list">
+            <li class="nav-item">
+              <a href="#contacts" class="nav-link">Contacts</a>
+            </li>
+            <li class="nav-item">
+              <a href="#skills" class="nav-link">Skills</a>
+            </li>
+            <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+            <li class="nav-item">
+              <a href="#courses" class="nav-link">Courses</a>
+            </li>
+            <li class="nav-item">
+              <a href="#education" class="nav-link">Education</a>
+            </li>
+            <li class="nav-item">
+              <a href="#english" class="nav-link">English</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main class="main">
+      <div class="container main-container">
+        <section class="section section-profile" id="profile">
+          <img class="profile-photo" src="./me.jpg" alt="my photo" >
+          <h1 class="section-title main-title">Viktor Manko</h1>
+        </section>
+        <section class="section" id="contacts">
+          <h2 class="section-title">Contacts</h2>
+
+          <ul class="section-list">
+            <li class="section-item">Location: Ukraine,Mykolaiv</li>
+            <li class="section-item">
+              Email:
+              <a href="mailto:mankovictor@gmail.com" title="email"
+                >mankovictor@gmail.com</a
+              >
+            </li>
+            <li class="section-item">
+              Github:
+              <a href="https://github.com/Viktor2897" title="github"
+                >Viktor2897</a
+              >
+            </li>
+            <li class="section-item">
+              Telegram:
+              <a href="https://t.me/ViktorManko" title="telegram"
+                >@ViktorManko</a
+              >
+            </li>
+            <li class="section-item">Discord: viktor2897</li>
+          </ul>
+        </section>
+        <section class="section" id="skills">
+          <h2 class="section-title">Skills</h2>
+          <ul class="section-list">
+            <li class="section-item">HTML</li>
+            <li class="section-item">CSS</li>
+            <li class="section-item">JS</li>
+            <li class="section-item">Git/GitHub</li>
+          </ul>
+        </section>
+        <section class="section" id="code">
+          <h2 class="section-title">Code</h2>
+          <pre class="pre">
+          <code>
+    javascript function getParticipants(handshakes) { 
+      if(handshakes == 0) return 0; 
+      return Math.ceil((1 + Math.sqrt(8 * handshakes + 1)) / 2); 
+    }
+          </code>
+          </pre>
+        </section>
+        <section class="section" id="courses">
+          <h2 class="section-title">Courses</h2>
+          <ul class="section-list">
+            <li class="section-item">
+              Udemy:
+              <span class="span"
+                >Build Responsive Real-World Websites with HTML and CSS</span
+              >
+            </li>
+            <li class="section-item">
+              Udemy:
+              <span class="span"
+                >The Complete JavaScript Course 2024: From Zero to Expert!</span
+              >
+            </li>
+          </ul>
+        </section>
+        <section class="section section-education" id="education">
+          <h2 class="section-title">Education</h2>
+          Black Sea National University named after Petro Mohyla
+        </section>
+        <section class="section section-english" id="english">
+          <h2 class="section-title">English</h2>
+          B1 - Pre-Intermediate
+        </section>
+      </div>
+    </main>
+    <footer class="footer">
+      <div class="container footer-container">
+        <div class="copy">
+          &copy; 2024
+          <a href="https://github.com/Viktor2897" class="nav-link">Viktor2897</a>
+        </div>
+        <div><a href="https://rs.school/courses/javascript-ru"><img src="./assets/rss.svg" alt="rss logo" class="rss"></a></div>
+      </div>
+    </footer>
+  </body>
+</html>
